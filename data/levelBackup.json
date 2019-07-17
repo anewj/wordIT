@@ -1,0 +1,156 @@
+{
+  "1": {
+    "difficulty": {
+      "1": {
+        "time": 30,
+        "requiredWord": 3
+      },
+      "2": {
+        "time": 30,
+        "requiredWord": 7
+      },
+      "3": {
+        "time": 30,
+        "requiredWord": 10
+      }
+    },
+    "rule": {
+      "character": 1,
+      "word": 1,
+      "changeCharacter": 0,
+      "type": 0
+    }
+  },
+  "2": {
+    "difficulty": {
+      "1": {
+        "time": 30,
+        "requiredWord": 3
+      },
+      "2": {
+        "time": 30,
+        "requiredWord": 7
+      },
+      "3": {
+        "time": 30,
+        "requiredWord": 10
+      }
+    },
+    "rule": {
+      "character": 2,
+      "word": 1,
+      "changeCharacter": 0,
+      "type": 0
+    }
+  },
+  "3": {
+    "difficulty": {
+      "1": {
+        "time": 30,
+        "requiredWord": 3
+      },
+      "2": {
+        "time": 30,
+        "requiredWord": 7
+      },
+      "3": {
+        "time": 30,
+        "requiredWord": 10
+      }
+    },
+    "rule": {
+      "character": 1,
+      "word": 1,
+      "changeCharacter": 0,
+      "type": 1
+    }
+  },
+  "4": {
+    "difficulty": {
+      "1": {
+        "time": 30,
+        "requiredWord": 3
+      },
+      "2": {
+        "time": 30,
+        "requiredWord": 7
+      },
+      "3": {
+        "time": 30,
+        "requiredWord": 10
+      }
+    },
+    "rule": {
+      "character": 2,
+      "word": 1,
+      "changeCharacter": 0,
+      "type": 1
+    }
+  },
+  "5": {
+    "difficulty": {
+      "1": {
+        "time": 30,
+        "requiredWord": 3
+      },
+      "2": {
+        "time": 30,
+        "requiredWord": 7
+      },
+      "3": {
+        "time": 30,
+        "requiredWord": 10
+      }
+    },
+    "rule": {
+      "character": 1,
+      "word": 1,
+      "changeCharacter": 0,
+      "type": 2
+    }
+  },
+  "6": {
+    "difficulty": {
+      "1": {
+        "time": 30,
+        "requiredWord": 3
+      },
+      "2": {
+        "time": 30,
+        "requiredWord": 7
+      },
+      "3": {
+        "time": 30,
+        "requiredWord": 10
+      }
+    },
+    "rule": {
+      "character": 2,
+      "word": 1,
+      "changeCharacter": 0,
+      "type": 2
+    }
+  },
+  "7": {
+    "difficulty": {
+      "1": {
+        "time": 30,
+        "requiredWord": 3
+      },
+      "2": {
+        "time": 30,
+        "requiredWord": 7
+      },
+      "3": {
+        "time": 30,
+        "requiredWord": 10
+      }
+    },
+    "rule": {
+      "character": 1,
+      "word": 1,
+      "changeCharacter": 0,
+      "type": 3
+    }
+  }
+}

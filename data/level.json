@@ -1,0 +1,242 @@
+{
+  "1": {
+    "difficulty": {
+      "1": {
+        "time": 30,
+        "requiredWord": 5
+      },
+      "2": {
+        "time": 30,
+        "requiredWord": 7
+      },
+      "3": {
+        "time": 30,
+        "requiredWord": 10
+      }
+    },
+    "rule": {
+      "character": 1,
+      "type": 2
+    }
+  },
+  "2": {
+    "difficulty": {
+      "1": {
+        "time": 30,
+        "requiredWord": 5
+      },
+      "2": {
+        "time": 30,
+        "requiredWord": 7
+      },
+      "3": {
+        "time": 30,
+        "requiredWord": 10
+      }
+    },
+    "rule": {
+      "character": 2,
+      "type": 2
+    }
+  },
+  "3": {
+    "difficulty": {
+      "1": {
+        "time": 30,
+        "requiredWord": 3
+      },
+      "2": {
+        "time": 30,
+        "requiredWord": 7
+      },
+      "3": {
+        "time": 30,
+        "requiredWord": 10
+      }
+    },
+    "rule": {
+      "character": 3,
+      "type": 2
+    }
+  },
+  "4": {
+    "difficulty": {
+      "1": {
+        "time": 30,
+        "requiredWord": 5
+      },
+      "2": {
+        "time": 30,
+        "requiredWord": 7
+      },
+      "3": {
+        "time": 30,
+        "requiredWord": 10
+      }
+    },
+    "rule": {
+      "character": 1,
+      "type": 0
+    }
+  },
+  "5": {
+    "difficulty": {
+      "1": {
+        "time": 30,
+        "requiredWord": 5
+      },
+      "2": {
+        "time": 30,
+        "requiredWord": 7
+      },
+      "3": {
+        "time": 30,
+        "requiredWord": 10
+      }
+    },
+    "rule": {
+      "character": 2,
+      "type": 0
+    }
+  },
+  "6": {
+    "difficulty": {
+      "1": {
+        "time": 30,
+        "requiredWord": 5
+      },
+      "2": {
+        "time": 30,
+        "requiredWord": 7
+      },
+      "3": {
+        "time": 30,
+        "requiredWord": 10
+      }
+    },
+    "rule": {
+      "character": 3,
+      "type": 0
+    }
+  },
+  "7": {
+    "difficulty": {
+      "1": {
+        "time": 30,
+        "requiredWord": 5
+      },
+      "2": {
+        "time": 30,
+        "requiredWord": 7
+      },
+      "3": {
+        "time": 30,
+        "requiredWord": 10
+      }
+    },
+    "rule": {
+      "character": 1,
+      "type": 1
+    }
+  },
+  "8": {
+    "difficulty": {
+      "1": {
+        "time": 30,
+        "requiredWord": 3
+      },
+      "2": {
+        "time": 30,
+        "requiredWord": 7
+      },
+      "3": {
+        "time": 30,
+        "requiredWord": 10
+      }
+    },
+    "rule": {
+      "character": 2,
+      "type": 1
+    }
+  },
+  "9": {
+    "difficulty": {
+      "1": {
+        "time": 30,
+        "requiredWord": 5
+      },
+      "2": {
+        "time": 30,
+        "requiredWord": 7
+      },
+      "3": {
+        "time": 30,
+        "requiredWord": 10
+      }
+    },
+    "rule": {
+      "character": 3,
+      "type": 1
+    }
+  },
+  "10": {
+    "difficulty": {
+      "1": {
+        "time": 30,
+        "requiredWord": 5
+      },
+      "2": {
+        "time": 30,
+        "requiredWord": 7
+      },
+      "3": {
+        "time": 30,
+        "requiredWord": 10
+      }
+    },
+    "rule": {
+      "character": 1,
+      "type": 3
+    }
+  },
+  "11": {
+    "difficulty": {
+      "1": {
+        "time": 30,
+        "requiredWord": 5
+      },
+      "2": {
+        "time": 30,
+        "requiredWord": 7
+      },
+      "3": {
+        "time": 30,
+        "requiredWord": 10
+      }
+    },
+    "rule": {
+      "character": 2,
+      "type": 3
+    }
+  },
+  "12": {
+    "difficulty": {
+      "1": {
+        "time": 30,
+        "requiredWord": 5
+      },
+      "2": {
+        "time": 30,
+        "requiredWord": 7
+      },
+      "3": {
+        "time": 30,
+        "requiredWord": 10
+      }
+    },
+    "rule": {
+      "character": 3,
+      "type": 3
+    }
+  }
+}

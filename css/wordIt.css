@@ -1,0 +1,296 @@
+@font-face {
+    font-family: 'greatvibes';
+    src: url('../Fonts/greatvibes-regular-webfont.woff') format('woff');
+}
+
+/*Makes body 100% of screen*/
+html, body {
+    margin: 0;
+    height: 100%;
+    background-color: #1A1A1D;
+    color: white;
+}
+
+#game-name {
+    text-align: center;
+    padding-top: 10px;
+    margin-top: 10px;
+}
+
+#mMainMenu {
+    color: #C3073F;
+    font-family: greatvibes;
+    font-size: 32px;
+    padding: 9px 16px;
+    font-weight: bold;
+}
+
+div span#mMainMenu {
+    text-align: center;
+}
+
+div {
+    width: 100%;
+}
+
+div.rest {
+    /*position: relative;*/
+    width: 80%;
+    padding-top: 20px;
+    font-size: 18px;
+    margin-left: 10%;
+    margin-right: 10%;
+}
+
+instructions{
+    width: 100%;
+    border: 0;
+    padding: 0;
+    margin: 0;
+}
+
+div#gameInputDisplay {
+    width: 80%;
+}
+
+#gameInputDisplay, #vali {
+    width: 100%;
+}
+
+#startGame, #totalScore, #timer {
+    font-size: 72px;
+    color: #1bc308;
+}
+
+.incorrectWord {
+    text-decoration: line-through;
+    color: #c00d29;
+    width: 100%;
+
+}
+
+.validWord {
+    color: #1bc308;
+    width: 100%;
+
+}
+
+.invalidWord {
+    text-decoration: line-through;
+    color: #d5d405;
+    width: 100%;
+}
+.infoWord {
+    /*text-decoration: underline overline;*/
+    text-align: center;
+    color: #996633;
+    width: 100%;
+}
+
+.answerScore {
+    float: right;
+}
+
+.menuItems {
+    font-size: 125%;
+    /*position: absolute;*/
+    /*left: 50%;*/
+    margin-left: auto;
+    margin-right: auto;
+    width: 150px;
+    border-radius: 4px;
+    background-color: #950740;
+    border-color: #4e4e50;
+    color: #d6d6d6;
+    display: block;
+}
+
+#backFromDiffButton {
+    background-color: #d6d6d6;
+    border-color: #4e4e50;
+    color: #950740;
+}
+
+#diffDIV1, #diffDIV2, #diffDIV3, #backButtonDiv, #ngButtonDiv {
+    padding: 10px !important;
+}
+
+div#gameTextContainer
+{
+    text-align: center;
+    width: 80%;
+
+}
+
+div#rulesDisplay, div#explainRuleDiv {
+    width: 100%;
+    text-align: center;
+}
+
+div#instructions span {
+    width: 250px;
+    display: inline-block;
+    /*margin-right: 10%;*/
+    /*margin-left: 10%;*/
+}
+
+div#explainRuleDiv span {
+    display: inline;
+    width: auto;
+}
+
+.putLeft {
+    text-align: left !important;
+}
+
+.putRight {
+    text-align: right;
+}
+
+#instructionLevelDisplay {
+    width: 100%;
+    text-align: center !important;
+    font-family: greatvibes;
+    font-size: 72px;
+
+}
+
+#flex-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 100%;
+    margin: 0 auto;
+}
+
+.flex-item {
+    width: 33.33%;
+}
+
+#totalScore {
+    text-align: right;
+}
+
+#timer {
+    text-align: center;
+}
+
+#displayFinalScore {
+    font-size: 72px;
+    width: 80%;
+
+}
+
+p {
+    margin-bottom: 5%;
+}
+
+h1 {
+    text-align: center;
+    padding-top: 8px;
+    padding-bottom: 8px;
+    margin-top: 8px;
+    margin-bottom: 8px;
+    border-top: 2px solid #1B0073;
+    border-bottom: 2px solid #1B0073;
+}
+
+#resultDisplayTable{
+    text-align: center;
+    width: 80%;
+}
+
+#regWordButton{
+    border-radius: 50%;
+}
+
+.center {
+    text-align: center;
+}
+
+input[type=text] {
+    width: 200px;
+    padding: 12px 20px;
+    margin: 8px 0;
+    /*display: inline-block;*/
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+table{
+    /*width: 700px;*/
+    padding: 10px;
+    border-collapse: collapse;
+    table-layout: auto;
+    margin: 10px;
+    /*display: inline-block;*/
+    float: left;
+}
+td, th {
+    border: 0px solid #999;
+    padding: 0.5rem;
+    text-align: center;
+}
+th {
+    background: #C3073F;
+}
+.scoreTableLevelInfo{
+    background: #1bc308;
+}
+
+td:nth-child(1) {
+    background: blue;
+}
+tr:nth-last-child(-n+4):nth-last-child(-n+4) td:nth-child(2) {
+    background: mediumpurple;
+}
+tr:nth-last-child(5) td:nth-child(2) {
+    background: #1bc308;
+}
+
+.tableContainer{
+    width:300px;margin:0 auto;
+}
+
+@media screen and (orientation: landscape) and (max-width: 1000px) {
+    p {
+        margin-bottom: 0%;
+    }
+
+    h1 {
+        text-align: left;
+        padding: 2px 8px;
+        margin: 2px 8px;
+        border-top: none;
+        border-bottom: 2px solid #1B0073;
+    }
+}
+
+@media only screen and (max-width: 768px) {
+    #instructionLevelDisplay{
+        color: #1bc308;
+    }
+    .putLeft, .putRight {
+        float: none;
+        text-align: center !important;
+    }
+    #displayFinalScore{
+        font-size: 24px;
+    }
+    #startGame, #totalScore, #timer {
+        font-size: 24px;
+    }
+    input[type=text] {
+        width: 100%;
+        padding: 12px 20px;
+        margin: 8px 0;
+        /*display: inline-block;*/
+        border: 1px solid #ccc;
+        border-radius: 4px;
+        box-sizing: border-box;
+    }
+    table {
+        width: 100%;
+    }
+}
